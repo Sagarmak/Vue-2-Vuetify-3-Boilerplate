@@ -43,7 +43,8 @@
   "lint-staged": {
     "*.{js,vue}": [
       "npm run lint",
-      "eslint --fix"
+      "eslint --fix",
+      "git add"
     ]
   }
 }
