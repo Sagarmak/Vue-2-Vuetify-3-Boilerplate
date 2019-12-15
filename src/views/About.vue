@@ -1,6 +1,6 @@
 <template>
   <div>
-  <!-- your code goes here -->
+    <!-- your code goes here -->
   </div>
 </template>
 <script lang="js">
