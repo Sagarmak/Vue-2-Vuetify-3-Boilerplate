@@ -5,7 +5,7 @@
         <v-icon>fas fa-user-circle</v-icon>
       </v-list-item-avatar>
 
-      <v-list-item-title>{{ userDetails.username }}</v-list-item-title>
+      <v-list-item-title>{{ userDetails }}</v-list-item-title>
     </v-list-item>
 
     <v-divider></v-divider>
@@ -39,7 +39,7 @@ export default {
   },
   computed: {
     userDetails() {
-      return this.$store.getters.userDetails;
+      return "John Doe";
     }
   },
   methods: {

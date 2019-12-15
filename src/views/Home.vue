@@ -32,20 +32,13 @@ export default {
           icon: "fas fa-tachometer-alt",
           route: "home.dashboard"
         },
-        { title: "Bill", icon: "fas fa-file-invoice", route: "home.bill" },
-        { title: "Chalan", icon: "fas fa-receipt", route: "home.chalan" },
+        { title: "Page 2", icon: "fas fa-file-invoice" },
         {
-          title: "Products",
-          icon: "fas fa-file-powerpoint",
-          route: "home.products"
+          title: "Page 3",
+          icon: "fas fa-file-powerpoint"
         },
-        { title: "History", icon: "fas fa-history", route: "home.history" },
-        {
-          title: "Reports",
-          icon: "fas fa-clipboard-list",
-          route: "home.reports"
-        },
-        { title: "Settings", icon: "fas fa-cogs", route: "home.settings" }
+        { title: "Page 4", icon: "fas fa-book" },
+        { title: "Settings", icon: "fas fa-cogs" }
       ]
     };
   },

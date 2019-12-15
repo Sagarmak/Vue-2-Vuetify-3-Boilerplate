@@ -1,6 +1,7 @@
 <template>
   <v-app-bar app color="primary" dense dark class="home-navbar">
     <v-toolbar-title>{{ appName }} Billing System</v-toolbar-title>
+
     <v-spacer></v-spacer>
 
     <v-menu offset-y>
@@ -20,7 +21,17 @@
 <script>
 export default {
   name: "HomeNavbar",
-  props: ["appName"],
+  data() {
+    return {
+      //
+    };
+  },
+  props: {
+    appName: {
+      default: () => [],
+      type: String
+    }
+  },
   methods: {
     //
   }
